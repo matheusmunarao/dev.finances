@@ -1,6 +1,7 @@
 # maratona-discover-front
-Conhecimento e materiais fornecidos pela ***Rocketseat.***
 
-Uma maratona de estudos direcionados ao Front-end. Projeto construído para aprimorar meus conhecimentos em *HTML*, *CSS* e *JavaScript.*
+Project built to improve my fundalmentals knowledge in **_HTML_**, **_CSS_** and **_JavaScript_**.
 
-Com o tempo gostaria de implementar novas funcionalidades ao projeto base.
+I would like to implement new features to the base project over the time.
+
+Materials provided by **_Rocketseat_** (https://rocketseat.com.br/).

@@ -34,6 +34,7 @@ const Transaction = {
   },
   incomes() {
     let income = 0;
+
     Transaction.all.forEach((transaction) => {
       if (transaction.amount > 0) {
         income += transaction.amount;
@@ -43,6 +44,7 @@ const Transaction = {
   },
   expenses() {
     let expense = 0;
+
     Transaction.all.forEach((transaction) => {
       if (transaction.amount < 0) {
         expense += transaction.amount;
@@ -60,9 +62,9 @@ const DOM = {
 
   addTransaction(transaction, index) {
     const tr = document.createElement("tr");
+
     tr.innerHTML = DOM.innerHTMLTransaction(transaction, index);
     tr.dataset.index = index;
-
     DOM.transactionsContainer.appendChild(tr);
   },
   innerHTMLTransaction(transaction, index) {
@@ -114,7 +116,6 @@ const Utils = {
       style: "currency",
       currency: "BRL",
     });
-
     return signal + value;
   },
 };
